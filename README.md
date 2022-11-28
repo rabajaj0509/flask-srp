@@ -2,7 +2,7 @@
 
 Code in this repository is inspired by [pysrp](https://github.com/cocagne/pysrp), which is python implementation of the Secure Remote Password protocol (SRP) 
 
-## Installation
+## Installation and execution
 ```
 # Create virtual envirement 
 $ virtualenv env
@@ -12,6 +12,9 @@ $ source env/bin/activate
 
 # Install pakecli command line tool
 $ pip install --editable .
+
+# Running the flask app
+$ flask run
 ```
 
 ### Todo
